@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://lavankumar.example/index.html</loc></url>
+  <url><loc>https://lavankumar.example/about.html</loc></url>
+  <url><loc>https://lavankumar.example/what-i-do.html</loc></url>
+  <url><loc>https://lavankumar.example/portfolio.html</loc></url>
+  <url><loc>https://lavankumar.example/project.html?slug=workforce-intelligence-platform</loc></url>
+  <url><loc>https://lavankumar.example/project.html?slug=ona-span-of-control-platform</loc></url>
+  <url><loc>https://lavankumar.example/project.html?slug=ml-studio</loc></url>
+  <url><loc>https://lavankumar.example/project.html?slug=skills-intelligence-talent-marketplace</loc></url>
+  <url><loc>https://lavankumar.example/insights.html</loc></url>
+  <url><loc>https://lavankumar.example/media.html</loc></url>
+  <url><loc>https://lavankumar.example/consulting.html</loc></url>
+</urlset>

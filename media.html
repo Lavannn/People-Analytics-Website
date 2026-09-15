@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Media &amp; Presentations — Lavan Kumar Vangapandu</title>
+<meta name="description" content="Recorded walkthroughs, webinars, conference talks and presentation decks on People Analytics, Workforce Intelligence and HR Transformation.">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <span class="brand-name">Lavan Kumar Vangapandu</span>
+      <span class="brand-role">People Analytics &amp; HR Transformation Expert</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    <nav class="main-nav">
+      <div class="wrap">
+        <ul>
+          <li><a href="index.html" data-page="index.html">Home</a></li>
+          <li><a href="about.html" data-page="about.html">About</a></li>
+          <li><a href="what-i-do.html" data-page="what-i-do.html">What I Do</a></li>
+          <li><a href="portfolio.html" data-page="portfolio.html">Portfolio</a></li>
+          <li><a href="insights.html" data-page="insights.html">Insights</a></li>
+          <li><a href="media.html" data-page="media.html" class="active">Media</a></li>
+          <li><a href="consulting.html" data-page="consulting.html">Consulting</a></li>
+          <li><a href="consulting.html#contact" class="nav-cta">Let's Work Together</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" style="padding-bottom:40px;">
+    <div class="wrap" style="grid-template-columns:1fr; max-width:760px;">
+      <div>
+        <div class="eyebrow">Media &amp; Presentations</div>
+        <h1 style="font-size:clamp(2rem,4vw,2.8rem);">See the work, not just the description of it</h1>
+        <p class="support" style="margin-top:20px;">Recorded platform walkthroughs, executive briefing decks, webinars and conference talks. Videos play here on the page; decks open as PDFs you can read or download.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="filter-bar" id="media-filter-bar"></div>
+      <div class="media-grid" id="media-grid"></div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap" style="text-align:center;">
+      <h2 style="font-size:1.6rem;">Want a walkthrough of your own data?</h2>
+      <p style="color:var(--slate); margin-top:12px;">Most of what's shown here started as a conversation about a specific workforce problem. If something resonates, the fastest next step is a short call.</p>
+      <div class="cta-row" style="margin-top:24px; justify-content:center;">
+        <a href="consulting.html#contact" class="btn btn-primary">Book a conversation</a>
+        <a href="portfolio.html" class="btn btn-outline">Browse case studies</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <div class="brand-name">Lavan Kumar Vangapandu</div>
+        <div class="brand-role">People Analytics &amp; HR Transformation Expert</div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h5>Site</h5>
+          <a href="about.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="insights.html">Insights</a>
+          <a href="media.html">Media</a>
+          <a href="consulting.html">Consulting</a>
+        </div>
+        <div class="footer-col">
+          <h5>Connect</h5>
+          <a href="mailto:lvangapandu@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Lavan Kumar Vangapandu. Hyderabad, India.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/media.js"></script>
+<script>
+  loadJSON('data/media.json').then(items => renderMediaLibrary(items));
+</script>
+</body>
+</html>
