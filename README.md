@@ -1,4 +1,4 @@
-# Lavan Kumar Vangapandu - People Analytics & HR Transformation
+# Lavan Kumar Vangapandu — People Analytics & HR Transformation
 
 A static, content-driven consulting and portfolio website. No build step, no server, no database.
 
@@ -53,7 +53,7 @@ sitemap.xml, robots.txt  SEO
 
 ## Before going live, update:
 
-1. Replace `https://lavankumar.example/` in `sitemap.xml`, `robots.txt`, and the `<link rel="canonical">` / Open Graph tags in `index.html` with your real domain once you have one (even the free `*.netlify.app` URL works fine to start).
+1. Replace `https://tasthaintelion.com/` in `sitemap.xml`, `robots.txt`, and the `<link rel="canonical">` / Open Graph tags in `index.html` with your real domain once you have one (even the free `*.netlify.app` URL works fine to start).
 2. Add real LinkedIn/YouTube links in every footer (`href="https://www.linkedin.com/"` placeholders).
 3. **Set your contact form endpoint.** Open `assets/js/contact.js` and paste your Formspree (or similar) URL into `FORM_ENDPOINT` on line 9. Until you do, the form falls back to opening the visitor's email client — which works, but loses some visitors. This is the single highest-impact thing to do before launch.
 4. Remove the three sample entries in `data/media.json` once you add your real videos and decks — see `docs/HOW-TO-ADD-MEDIA.md`.
