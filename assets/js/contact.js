@@ -8,7 +8,7 @@
 // ==========================================================================
 const FORM_ENDPOINT = 'https://formspree.io/f/xvkoeyro';
 
-const FALLBACK_EMAIL = 'lvangapandu@gmail.com';
+const FALLBACK_EMAIL = 'lavan@tasthaintelion.com';
 
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('enquiry-form');
