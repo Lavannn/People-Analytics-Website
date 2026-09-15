@@ -1,4 +1,4 @@
-# Lavan Kumar Vangapandu — People Analytics & HR Transformation
+# Lavan Kumar Vangapandu - People Analytics & HR Transformation
 
 A static, content-driven consulting and portfolio website. No build step, no server, no database.
 
