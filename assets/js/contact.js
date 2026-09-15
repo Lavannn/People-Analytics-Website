@@ -6,7 +6,7 @@
 //  2. Create a form, copy the endpoint URL it gives you
 //  3. Paste it below, replacing the empty string
 // ==========================================================================
-const FORM_ENDPOINT = ''; // e.g. 'https://formspree.io/f/xvkoeyro'
+const FORM_ENDPOINT = ''; 'https://formspree.io/f/xvkoeyro'
 
 const FALLBACK_EMAIL = 'lvangapandu@gmail.com';
 
