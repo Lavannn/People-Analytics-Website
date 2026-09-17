@@ -56,11 +56,11 @@ function renderProjectDetail(projects) {
         <h2>Project not found</h2>
         <p class="content">This case study may have been moved or unpublished. <a class="arrow-link" href="portfolio.html">Back to the portfolio</a></p>
       </div></section>`;
-    document.title = 'Project not found — Lavan Kumar Vangapandu';
+    document.title = 'Project not found - Lavan Kumar Vangapandu';
     return;
   }
 
-  document.title = `${project.shortTitle} — Lavan Kumar Vangapandu`;
+  document.title = `${project.shortTitle} - Lavan Kumar Vangapandu`;
 
   const statRow = (project.stats || []).map(s => `<div><strong>${esc(s.value)}</strong>${esc(s.label)}</div>`).join('');
 
@@ -79,7 +79,7 @@ function renderProjectDetail(projects) {
   const downloads = project.downloads || {};
   const chip = (label, href) => href
     ? `<a class="download-chip" href="${href}" target="_blank" rel="noopener">${label} ↓</a>`
-    : `<span class="download-chip disabled">${label} — coming soon</span>`;
+    : `<span class="download-chip disabled">${label} - coming soon</span>`;
 
   root.innerHTML = `
     <section class="project-hero">

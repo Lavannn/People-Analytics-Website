@@ -6,7 +6,7 @@
 //  2. Create a form, copy the endpoint URL it gives you
 //  3. Paste it below, replacing the empty string
 // ==========================================================================
-const FORM_ENDPOINT = 'https://formspree.io/f/xvkoeyro';
+const FORM_ENDPOINT = 'https://formspree.io/f/xvkoeyro'; // e.g. 'https://formspree.io/f/abcdwxyz'
 
 const FALLBACK_EMAIL = 'lavan@tasthaintelion.com';
 
@@ -33,10 +33,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const data = new FormData(form);
 
-    // No endpoint configured yet — fall back to opening the visitor's mail client.
+    // No endpoint configured yet - fall back to opening the visitor's mail client.
     if (!FORM_ENDPOINT) {
       const subject = encodeURIComponent(
-        `Website enquiry — ${data.get('Requirement') || 'General'} — ${data.get('Name') || ''}`
+        `Website enquiry - ${data.get('Requirement') || 'General'} - ${data.get('Name') || ''}`
       );
       const body = encodeURIComponent(
         `Name: ${data.get('Name') || ''}\n` +
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
       if (!res.ok) throw new Error('Request failed');
       form.reset();
-      setStatus("Thank you — your enquiry has been sent. I'll respond within one business day.", 'ok');
+      setStatus("Thank you - your enquiry has been sent. I'll respond within one business day.", 'ok');
     } catch (err) {
       console.error(err);
       setStatus(`Something went wrong sending the form. Please email ${FALLBACK_EMAIL} directly.`, 'error');
