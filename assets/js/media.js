@@ -135,6 +135,15 @@ function renderMediaTeaser(containerId, items, count = 3) {
   const list = items
     .filter(m => (m.visibility === 'public' || !m.visibility) && m.featured)
     .slice(0, count);
+
+  // Nothing to show yet — hide the whole homepage section rather than
+  // leaving an empty heading with no cards under it.
+  if (!list.length) {
+    const section = document.getElementById('media-teaser-section');
+    if (section) section.style.display = 'none';
+    return;
+  }
+
   el.innerHTML = list.map(mediaCard).join('');
   wireMediaClicks(el);
 }
