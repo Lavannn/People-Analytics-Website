@@ -1,13 +1,13 @@
 [
   {
     "slug": "workforce-intelligence-platform",
-    "title": "People Analytics — The Workforce Intelligence Platform",
+    "title": "People Analytics - The Workforce Intelligence Platform",
     "shortTitle": "Workforce Intelligence Platform",
     "category": "People Analytics · Machine Learning · Workforce Planning",
     "featured": true,
     "order": 1,
     "visibility": "public",
-    "summary": "A single system that takes raw HR data from upload to executive dashboards, attrition prediction, compensation equity, workforce forecasting and employee segmentation — with no coding required.",
+    "summary": "A single system that takes raw HR data from upload to executive dashboards, attrition prediction, compensation equity, workforce forecasting and employee segmentation - with no coding required.",
     "stats": [
       { "label": "Connected modules", "value": "14" },
       { "label": "ML algorithms", "value": "12" },
@@ -15,10 +15,10 @@
       { "label": "External dependencies", "value": "0" }
     ],
     "businessProblem": "HR data is typically fragmented across separate exports for headcount, salary, exits and demographics that never quite reconcile. Attrition is usually discovered after resignation letters land rather than flagged in advance, and board-ready people analytics can take weeks of analyst time, BI tooling, or an outside consultant to assemble.",
-    "approach": "The platform follows one continuous workflow — Upload, Explore, Predict, Plan, Act — built across four analytical layers: Foundation (guided data upload and data-quality audit), Descriptive Analytics (executive dashboard, demographics, attrition and compensation analysis), Predictive Analytics (a 12-algorithm attrition model with employee risk scoring and batch prediction), and Planning & Strategy (workforce forecasting, employee segmentation, and prescriptive insights). A single CSV or Excel HR export is enough for the platform to auto-detect which modules it can activate.",
+    "approach": "The platform follows one continuous workflow - Upload, Explore, Predict, Plan, Act - built across four analytical layers: Foundation (guided data upload and data-quality audit), Descriptive Analytics (executive dashboard, demographics, attrition and compensation analysis), Predictive Analytics (a 12-algorithm attrition model with employee risk scoring and batch prediction), and Planning & Strategy (workforce forecasting, employee segmentation, and prescriptive insights). A single CSV or Excel HR export is enough for the platform to auto-detect which modules it can activate.",
     "modules": [
-      { "name": "Executive Command Center", "detail": "Twelve live KPIs — headcount, YoY change, hires/exits, turnover, voluntary vs. involuntary, average age and tenure — plus a workforce health radar and a headcount/hires/exits trend view." },
-      { "name": "Workforce Composition", "detail": "Standard demographic breakdowns plus a categorical EDA explorer that auto-detects any text/category column in the uploaded file — department, gender, employee type, location, grade — with diversity indices and cross-tab heatmaps." },
+      { "name": "Executive Command Center", "detail": "Twelve live KPIs - headcount, YoY change, hires/exits, turnover, voluntary vs. involuntary, average age and tenure - plus a workforce health radar and a headcount/hires/exits trend view." },
+      { "name": "Workforce Composition", "detail": "Standard demographic breakdowns plus a categorical EDA explorer that auto-detects any text/category column in the uploaded file - department, gender, employee type, location, grade - with diversity indices and cross-tab heatmaps." },
       { "name": "Compensation & Pay-Equity Analytics", "detail": "Compa-ratio analysis, salary distribution, grade salary bands, a grade × pay-equity heatmap, within-grade percentiles, and a salary-vs-attrition comparison." },
       { "name": "Attrition Analysis & Workforce EDA", "detail": "Voluntary vs. involuntary turnover, trend by month/quarter, attrition sliced by department/grade/tenure, early-attrition flags, correlation heatmaps, and hire-cohort survival curves." },
       { "name": "ML Attrition Model", "detail": "A guided six-step wizard (Analyze → Prepare → Train → Compare → Tune → Finalize & Deploy) trains and benchmarks 12 algorithms across linear, non-linear and ensemble/tree families on one consistent preprocessing recipe." },
@@ -27,7 +27,7 @@
       { "name": "Employee Segmentation", "detail": "K-means/PAM clustering on any mix of variables, with an optimal-k finder, PCA visualization, segment profiling, and a correlation funnel ranking every variable's relationship to a chosen target." },
       { "name": "Smart Insights & Data Quality Audit", "detail": "Automatically generated, context-aware insight cards and prescriptive next-actions computed entirely on-platform, backed by a data-quality audit that runs before any dashboard or model is trusted." }
     ],
-    "keyInsightsFraming": "The platform is designed so descriptive, predictive and prescriptive analysis happen in one continuous workflow instead of separate BI, ML and planning tools stitched together — every table, prediction set and script is exportable, with no vendor lock-in.",
+    "keyInsightsFraming": "The platform is designed so descriptive, predictive and prescriptive analysis happen in one continuous workflow instead of separate BI, ML and planning tools stitched together - every table, prediction set and script is exportable, with no vendor lock-in.",
     "businessApplications": [
       "Board-ready workforce health reporting without a multi-week data-consulting engagement",
       "Early identification of attrition risk before it surfaces in exit interviews",
@@ -53,23 +53,23 @@
     "featured": true,
     "order": 2,
     "visibility": "public",
-    "summary": "From scattered spreadsheets and gut feelings to one explainable decision-support system for organization design — for leaders who have to stand behind the call.",
+    "summary": "From scattered spreadsheets and gut feelings to one explainable decision-support system for organization design - for leaders who have to stand behind the call.",
     "stats": [
       { "label": "Analytical tabs", "value": "8" },
       { "label": "Network roles classified", "value": "4" },
       { "label": "Scenarios compared", "value": "2 vs 2" },
       { "label": "Black boxes", "value": "0" }
     ],
-    "businessProblem": "Leadership routinely makes multi-million-dollar organization-design decisions with a spreadsheet, an org chart and a gut feeling — not for lack of data, but because it lives in five different systems and formats, and nobody has time to stitch it together before the meeting. Overload and disengagement are typically discovered in an exit interview, months after they could have been addressed.",
-    "approach": "The platform unifies org, collaboration and engagement data behind one guided upload, then walks through eight connected tabs — Data, Overview, Org Explorer, Span of Control, Network Analysis, Workload Index, Scenario Simulator, and Methodology — so that every view hands off cleanly to the next, ending in a modeled, costed, explainable recommendation rather than an opinion.",
+    "businessProblem": "Leadership routinely makes multi-million-dollar organization-design decisions with a spreadsheet, an org chart and a gut feeling - not for lack of data, but because it lives in five different systems and formats, and nobody has time to stitch it together before the meeting. Overload and disengagement are typically discovered in an exit interview, months after they could have been addressed.",
+    "approach": "The platform unifies org, collaboration and engagement data behind one guided upload, then walks through eight connected tabs - Data, Overview, Org Explorer, Span of Control, Network Analysis, Workload Index, Scenario Simulator, and Methodology - so that every view hands off cleanly to the next, ending in a modeled, costed, explainable recommendation rather than an opinion.",
     "modules": [
-      { "name": "Data", "detail": "Ingests and validates three data sources — org hierarchy, collaboration activity, and engagement data — in one guided upload, replacing days of manual data prep with a five-minute setup." },
+      { "name": "Data", "detail": "Ingests and validates three data sources - org hierarchy, collaboration activity, and engagement data - in one guided upload, replacing days of manual data prep with a five-minute setup." },
       { "name": "Overview", "detail": "A 30-second, single-screen executive health summary covering headcount distribution, cross-department collaboration intensity, and rolled-up engagement." },
-      { "name": "Org Explorer", "detail": "An interactive, filterable view of the organizational hierarchy by department, level or location — replacing the static, quickly-outdated org chart PDF." },
+      { "name": "Org Explorer", "detail": "An interactive, filterable view of the organizational hierarchy by department, level or location - replacing the static, quickly-outdated org chart PDF." },
       { "name": "Span of Control", "detail": "Benchmarks every manager's direct-report count against configurable healthy ranges, flagging who is structurally overloaded, healthy, or under-managed." },
-      { "name": "Network Analysis", "detail": "Maps real collaboration patterns independent of the formal reporting line, classifying each person's structural role — Broker, Hub, Isolate, or Regular — using network science rather than guesswork." },
+      { "name": "Network Analysis", "detail": "Maps real collaboration patterns independent of the formal reporting line, classifying each person's structural role - Broker, Hub, Isolate, or Regular - using network science rather than guesswork." },
       { "name": "Workload Index", "detail": "Combines span of control, collaboration intensity and self-reported engagement into one transparent, comparable workload and burnout-risk score per manager." },
-      { "name": "Scenario Simulator", "detail": "Models delayering and span-adjustment decisions with a live financial model — severance cost, run-rate savings, breakeven timeline — comparing multiple restructuring scenarios side by side." },
+      { "name": "Scenario Simulator", "detail": "Models delayering and span-adjustment decisions with a live financial model - severance cost, run-rate savings, breakeven timeline - comparing multiple restructuring scenarios side by side." },
       { "name": "Methodology", "detail": "Documents every scoring formula, weight and threshold in plain language, so no recommendation is ever a black box." }
     ],
     "decisionSupport": [
@@ -86,35 +86,35 @@
   },
   {
     "slug": "ml-studio",
-    "title": "ML Studio — No-Code Machine Learning Platform",
+    "title": "ML Studio - No-Code Machine Learning Platform",
     "shortTitle": "Machine Learning Studio",
     "category": "Statistics · Machine Learning · Predictive Modeling",
     "featured": true,
     "order": 3,
     "visibility": "public",
-    "summary": "Upload any tabular dataset and go from raw data to a deployed, explainable prediction model — no code, no data science team, and no black-box guesswork along the way.",
+    "summary": "Upload any tabular dataset and go from raw data to a deployed, explainable prediction model - no code, no data science team, and no black-box guesswork along the way.",
     "stats": [
       { "label": "Algorithms", "value": "17" },
       { "label": "Connected modules", "value": "9" },
       { "label": "Model families", "value": "5" },
       { "label": "Problem detection", "value": "Automatic" }
     ],
-    "businessProblem": "Most organizations either lack the bandwidth to build predictive models systematically, or ship models nobody stress-tested before go-live. Exploratory analysis, feature engineering and model training usually mean stitching together notebooks, scripts and BI tools by hand, and teams often try one or two familiar algorithms instead of benchmarking many — leaving accuracy on the table and failure modes to surface in production rather than before.",
-    "approach": "One continuous workflow — Upload, Explore, Engineer, Train & Tune, Evaluate, Deploy & Score — organized into nine connected modules across four stages. A CSV or Excel file is enough for the platform to auto-detect whether the target is a regression or classification problem and activate the full pipeline.",
+    "businessProblem": "Most organizations either lack the bandwidth to build predictive models systematically, or ship models nobody stress-tested before go-live. Exploratory analysis, feature engineering and model training usually mean stitching together notebooks, scripts and BI tools by hand, and teams often try one or two familiar algorithms instead of benchmarking many - leaving accuracy on the table and failure modes to surface in production rather than before.",
+    "approach": "One continuous workflow - Upload, Explore, Engineer, Train & Tune, Evaluate, Deploy & Score - organized into nine connected modules across four stages. A CSV or Excel file is enough for the platform to auto-detect whether the target is a regression or classification problem and activate the full pipeline.",
     "modules": [
       { "name": "Foundation", "detail": "Guided data upload with automatic problem-type detection (classification vs. regression), a variable selector, and a full column-quality profile before anything downstream runs." },
-      { "name": "Explore (7-view EDA suite)", "detail": "Numeric, categorical, num-vs-cat, correlation, scatter, outlier and time-series views — every chart interactive and every underlying table exportable." },
-      { "name": "Feature Engineering Studio", "detail": "No-code date/time decomposition, an IF/conditional formula builder, and a free-form formula evaluator — with a full change log, undo/reset, and a downloadable reproducible script." },
+      { "name": "Explore (7-view EDA suite)", "detail": "Numeric, categorical, num-vs-cat, correlation, scatter, outlier and time-series views - every chart interactive and every underlying table exportable." },
+      { "name": "Feature Engineering Studio", "detail": "No-code date/time decomposition, an IF/conditional formula builder, and a free-form formula evaluator - with a full change log, undo/reset, and a downloadable reproducible script." },
       { "name": "Model & Compare", "detail": "17 algorithms across five families (Linear, Regularised, Tree-Based, Non-Linear, Ensemble) trained on one identical, fair preprocessing recipe, through a guided six-step wizard: Analyse, Prepare, Algorithms, Evaluate, Tune, Finalize." },
       { "name": "Model Leaderboard", "detail": "A composite score ranking across every available metric, grouped model comparison, a tuned-model indicator, and one-click CSV export." },
-      { "name": "Deep Diagnostics", "detail": "Calibration curves, precision-recall curves, cumulative gains & lift, learning curves, and residual/probability diagnostics — each with a plain-English 'how to read this' panel." },
+      { "name": "Deep Diagnostics", "detail": "Calibration curves, precision-recall curves, cumulative gains & lift, learning curves, and residual/probability diagnostics - each with a plain-English 'how to read this' panel." },
       { "name": "Hyperparameter Tuning", "detail": "Grid or random search across 8 tuneable algorithms, with a live parameter-performance table and a real-time feature-importance (VIP) plot." },
       { "name": "Deploy & Score", "detail": "Live scorecards with risk filtering, plus batch prediction on new, unseen data with automatic column validation against the trained model's requirements." }
     ],
     "usp": [
       "Every algorithm trains on the identical prepared dataset, so leaderboard rankings are apples-to-apples, not cherry-picked",
       "Deployment-grade diagnostics (calibration, lift/gain, learning curves) ship as standard, not bolted on after something breaks",
-      "Every engineered feature exports as reproducible code and every finalized model exports as a portable object — nothing is a black box",
+      "Every engineered feature exports as reproducible code and every finalized model exports as a portable object - nothing is a black box",
       "Auto-detects regression vs. classification and adapts every module instantly to what the data supports"
     ],
     "technology": ["R", "Statistical & ML modeling (17 algorithms)", "Hyperparameter tuning (grid/random search)", "Interactive diagnostics & visualization"],
@@ -130,30 +130,30 @@
     "featured": true,
     "order": 4,
     "visibility": "public",
-    "summary": "Find, match and grow the talent an organization already has — before posting another requisition.",
+    "summary": "Find, match and grow the talent an organization already has - before posting another requisition.",
     "stats": [
       { "label": "Employees mapped (reference org)", "value": "3,000" },
       { "label": "Skills tracked", "value": "500" },
       { "label": "Skill-holding records scored", "value": "27,679" },
       { "label": "Open roles matched live", "value": "50" }
     ],
-    "businessProblem": "What people can actually do usually lives in resumes, spreadsheets and a manager's memory — not anywhere searchable or comparable. By the time a critical skill gap shows up on a project, it has already cost the timeline, and concentration risk in a handful of critical-skill holders typically goes unmanaged until someone resigns. Redeployment decisions get made from memory and informal messages, so they never scale past a handful of teams.",
-    "approach": "One system organized around Find, Match and Grow, built on adjacency-based skills intelligence that is explainable at every score — not a black box. Six views take an organization from raw skill data to a live internal talent marketplace: Executive Summary, Org Skills Landscape, Skills Adjacency Network, Talent Marketplace Match, Individual Growth Path, and Future Skills Gap.",
+    "businessProblem": "What people can actually do usually lives in resumes, spreadsheets and a manager's memory - not anywhere searchable or comparable. By the time a critical skill gap shows up on a project, it has already cost the timeline, and concentration risk in a handful of critical-skill holders typically goes unmanaged until someone resigns. Redeployment decisions get made from memory and informal messages, so they never scale past a handful of teams.",
+    "approach": "One system organized around Find, Match and Grow, built on adjacency-based skills intelligence that is explainable at every score - not a black box. Six views take an organization from raw skill data to a live internal talent marketplace: Executive Summary, Org Skills Landscape, Skills Adjacency Network, Talent Marketplace Match, Individual Growth Path, and Future Skills Gap.",
     "modules": [
       { "name": "Executive Summary", "detail": "One screen answering: can we fill our open roles from inside the company, right now?" },
       { "name": "Org Skills Landscape", "detail": "Skill coverage by department and category, plus single-point-of-failure flags where a critical skill sits with very few people." },
-      { "name": "Skills Adjacency Network", "detail": "Which skills travel together in the real workforce — evidence-based reskilling paths computed empirically from how skills actually co-occur, not a generic industry taxonomy." },
-      { "name": "Talent Marketplace Match", "detail": "Every employee ranked against any open role by direct-fit and growth-potential, with the reasoning shown — Match Score = direct skill proficiency + adjacency-based growth potential." },
+      { "name": "Skills Adjacency Network", "detail": "Which skills travel together in the real workforce - evidence-based reskilling paths computed empirically from how skills actually co-occur, not a generic industry taxonomy." },
+      { "name": "Talent Marketplace Match", "detail": "Every employee ranked against any open role by direct-fit and growth-potential, with the reasoning shown - Match Score = direct skill proficiency + adjacency-based growth potential." },
       { "name": "Individual Growth Path", "detail": "For any person: where they are today, their single highest-leverage next skill, and exactly which roles that skill unlocks for them." },
       { "name": "Future Skills Gap", "detail": "Where today's skill supply is thinnest against tomorrow's projected demand, including AI-era and emerging skills scored against the workforce the same way as every other skill." }
     ],
     "whyDifferent": [
-      "Every score shows its work — direct skill match and adjacency-based growth potential are both visible and attributable, never a mystery number",
+      "Every score shows its work - direct skill match and adjacency-based growth potential are both visible and attributable, never a mystery number",
       "Skill adjacency is computed empirically from the organization's own people, not borrowed from a generic industry model",
-      "Every insight links back to evidence — any flag can be traced to the exact employees and records that produced it",
-      "No vendor lock-in — every result exports to CSV, and the platform works from anonymized or sampled HRIS/LMS/ATS exports"
+      "Every insight links back to evidence - any flag can be traced to the exact employees and records that produced it",
+      "No vendor lock-in - every result exports to CSV, and the platform works from anonymized or sampled HRIS/LMS/ATS exports"
     ],
-    "gettingStarted": "Six flexible CSV files (employees, skills taxonomy, skill holdings, roles) are validated automatically for schema and cross-file reference issues before any insight is generated — from upload to a live, explorable marketplace the same day.",
+    "gettingStarted": "Six flexible CSV files (employees, skills taxonomy, skill holdings, roles) are validated automatically for schema and cross-file reference issues before any insight is generated - from upload to a live, explorable marketplace the same day.",
     "technology": ["Skills taxonomy & adjacency modeling", "Sparse-matrix / vectorized matching for HRIS scale", "Interactive dashboarding", "Internal talent-matching algorithms"],
     "dataNote": "Validated against a synthetic 3,000-employee, 500-skill reference organization for demonstration purposes. No client or employee-level data is displayed on this site.",
     "downloads": { "presentation": null, "pdf": null, "video": null, "demoLink": null },
